@@ -1,0 +1,44 @@
+.header a {
+    text-decoration: none;
+}
+
+.drop-content {
+    padding: 50px;
+    margin-top: 50px;
+    background: aliceblue;
+    border-radius: 10px;
+    color: #001C30;
+    text-align: left;
+    font-size: 32px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hidden-block {
+    display: none;
+    padding-left: 100px;
+    margin: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.drop-content a {
+    text-decoration: none;
+}
+
+.drop-content:hover {
+    background: #001C30;
+    color: aliceblue;
+    border: solid white;
+    .hidden-block {
+        display: block;
+        transition: all 0.3s ease;
+    }
+}
+
+.hidden-block:hover {
+    color: #001C30;
+    background: aliceblue;
+}
+
+

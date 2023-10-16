@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+   
+  /* Скрываем scrollbar для IE, Edge и Firefox */
+.hide-scrollbar {
+    -ms-overflow-style: none;  /* IE и Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+h1 {
+    margin-bottom: 100px;
+    font-size: 72px;
+    padding-top: 100px;
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 48px;
+}
+
+h3 {
+    text-align: left;
+    font-size: 32px;
+    padding-top: 100px;
+}
+
+h4 {
+    text-align: left;
+    font-size: 32px;
+    margin-top: 100px;
+    margin-left: 100px;
+    background: aliceblue;
+    border-radius: 10px;
+    color: #001C30;
+    width: 1000px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    height: auto;
+    width: 100%;
+    background: rgb(81,8,97);
+    background: linear-gradient(90deg, rgba(81,8,97,1) 46%, rgba(9,18,116,1) 68%, rgba(1,8,15,1) 91%);
+    text-align: center;
+    color: aliceblue;
+    padding-bottom: 100px;
+}
+
+.logo {
+    border-radius: 10px;
+    border: 2px solid aliceblue;
+    background: #001C30;
+    width: 150px;
+    height: 60px;
+    cursor: pointer;
+    float: left;
+    margin: 30px;
+    text-align: center;
+    font-size: 32px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.logo p {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.logo:hover {
+    background: aliceblue;
+    color: #001C30;
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu a {
+    color: aliceblue;
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 30px;
+    transition: all 0.3s ease;
+}
+
+.menu a:hover {
+    color: blueviolet;
+}
+
+.main-block {
+    margin: 0 auto;
+    padding: 30px;
+    width: 2400px;
+    height: auto;
+    background: #001C30;
+    border-radius: 10px;
+    
+}
+
+.flex-menu {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: center;
+}
+
+.menu-block {
+    margin: 50px;
+    padding: 50px;
+    height: auto;
+    width: 600px;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    transition-duration: 300ms;
+    cursor: pointer;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 32px;
+    vertical-align: bottom;
+    background: #000000;
+}
+
+.logo-image {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.logo-design {
+    background: url(/css/img/logo-lg/design-logo.png) no-repeat;
+}
+
+.logo-tech {
+    background: url(/css/img/logo-lg/tech-logo.png) no-repeat;
+}
+
+.logo-model {
+    background: url(/css/img/logo-lg/model-logo.png) no-repeat;
+}
+
+.logo-engine {
+    background: url(/css/img/logo-lg/engineer-logo.png) no-repeat;
+}
+
+.logo-dev {
+    background: url(/css/img/logo-lg/develop-logo.png) no-repeat;
+}
+
+.logo-des-third{
+    background: url(/css/img/logo-lg/design-third-logo.png) no-repeat;
+}
+
+.logo-imp {
+    background: url(/css/img/logo-lg/implement-logo.png) no-repeat;
+}
+
+.logo-math {
+    background: url(/css/img/logo-lg/math-logo.png) no-repeat;
+}
+
+.menu-block:hover {
+    height: auto;
+    padding: 50px;
+    transition-delay: 200ms;
+    background-color: aliceblue;
+    color: #001C30;
+}
+
+footer {
+    height: auto;
+    background: #000000;
+    color: aliceblue;
+    text-align: center;
+    padding: 100px;
+    font-size: 32px;
+}

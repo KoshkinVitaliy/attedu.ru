@@ -1,0 +1,10 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: chocolate;
+    width: 600px;
+    height: auto;
+    padding: 50px;
+    border-radius: 30px;
+}

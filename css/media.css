@@ -1,0 +1,134 @@
+@media screen and (max-width: 2180px) {
+    h1 {
+        font-size: 72px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+    
+    .main-block {
+        width: 1600px;
+   } 
+
+
+}
+
+@media screen and (max-width: 1920px) {
+    h1 {
+        font-size: 72px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+    
+    .main-block {
+        width: 1600px;
+   } 
+
+   .flex-menu {
+    justify-content: space-between;
+   }
+
+
+}
+
+@media screen and (max-width: 1800px) {
+    h1 {
+        font-size: 64px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+    
+    .main-block {
+        width: 1200px;
+   } 
+
+    .menu-block {
+        width: 600px;
+        height: 400px;
+        font-size: 24px;
+   }
+
+   .logo-image {
+    width: 300px;
+    height: 300px;
+   }
+
+    .logo-design {
+    background: url(/css/img/logo-md/design-logo.png) no-repeat;
+   }
+
+    .logo-tech {
+    background: url(/css/img/logo-md/tech-logo.png) no-repeat;
+}
+
+.logo-model {
+    background: url(/css/img/logo-md/model-logo.png) no-repeat;
+}
+
+.logo-engine {
+    background: url(/css/img/logo-md/engineer-logo.png) no-repeat;
+}
+
+.logo-dev {
+    background: url(/css/img/logo-md/develop-logo.png) no-repeat;
+}
+
+.logo-des-third{
+    background: url(/css/img/logo-md/design-third-logo.png) no-repeat;
+}
+
+.logo-imp {
+    background: url(/css/img/logo-md/implement-logo.png) no-repeat;
+}
+
+.logo-math {
+    background: url(/css/img/logo-md/math-logo.png) no-repeat;
+}
+
+   footer p {
+    font-size: 24px;
+   }
+}
+
+/* 1369 - 1600 px */
+@media screen and (max-width: 1600px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .flex-menu {
+        justify-content:baseline;
+       }
+
+}
+
+/* 961 - 1368 px */
+@media screen and (max-width: 1368px) {
+   
+}
+
+/* 769 - 960 px */
+@media screen and (max-width: 960px) {
+    
+}
+
+/* 481 - 768 px */
+@media screen and (max-width: 768px) {
+  .flex-menu {
+    flex-direction: column;
+  }
+}
+
+/* 320 - 480 px */
+@media screen and (max-width: 480px) {
+    
+}
